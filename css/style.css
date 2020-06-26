@@ -1,0 +1,35 @@
+div.content{ /*configurações da caixa*/
+    width: 400px;
+    height: 230px;
+    border: 2px solid black;
+    margin: 35px auto;
+    padding: 15px;
+}
+
+h1{
+    text-align: left; /*posição do texto*/
+}
+
+form input[type="number"]{ /*preenchimento na tela*/
+    width: 98%;  
+}
+
+form input[type="text"]{ /*preenchimento na tela*/
+    width: 98%;  
+}
+
+div.login{
+    text-align: center;
+}
+
+div.fields{     /*espaçamento das divs*/
+    margin-bottom: 10px; 
+}
+
+span.error{ /*definindo a cor do span*/
+    color: red;
+}
+
+span.hide{ /*spans não serão exibidos na tela*/
+    display: none;
+}
